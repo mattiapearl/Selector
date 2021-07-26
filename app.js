@@ -214,7 +214,6 @@ let browsExt = [...listOfExternalWallets];
 let browsInt = [...listOfInternalWallets];
 
 const wrapper = document.querySelector(".selector-container");
-const fieldset = document.querySelector(".selector-fieldset");
 const input = document.querySelector(".wallet-selector");
 const ulBox = document.querySelector(".ul-box");
 const personal = document.querySelector(".personal");
@@ -256,7 +255,6 @@ function createList(wrapper1, wrapper2, list1, list2) {
         const value = event.target.innerText;
         input.value = value;
         input.innerText = value;
-        fieldset.style.background = "#ECECEC";
         input.style.background = "#ECECEC";
       });
     });
@@ -291,7 +289,6 @@ function createList(wrapper1, wrapper2, list1, list2) {
         const value = event.target.innerText;
         input.value = value;
         input.innerText = value;
-        fieldset.style.background = "#ECECEC";
         input.style.background = "#ECECEC";
       });
     });
@@ -339,7 +336,6 @@ input.addEventListener("focus", () => {
   browse();
   ulBox.style.display = "block";
   ulBox.scrollTo(0, 0);
-  fieldset.style.background = "#FFFFFF";
   input.style.background = "#FFFFFF";
 });
 

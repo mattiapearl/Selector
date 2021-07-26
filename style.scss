@@ -31,17 +31,14 @@ body{
     width: 30vw;
     height: auto;
     margin: 0 auto;
-
-    fieldset{
+    
+    input{
+        position: relative;
+        color: $on-text;
+        padding: 17px 25px;
+        z-index: 1;
         background: $white;
         margin-top: 40%;
-        padding: 17px 25px;
-        position: relative;
-        z-index: 1;
-        @include field;
-    }
-    input{
-        color: $on-text;
         @include field;
         &:focus{
             border: none;
@@ -57,6 +54,8 @@ body{
         
     }
 }
+
+
 .ul-box{
     display: none;
     transform: translateY(-20px);
