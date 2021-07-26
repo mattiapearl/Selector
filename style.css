@@ -25,6 +25,7 @@ body {
   border-radius: 13px;
   border: none;
   font-size: 22px;
+  transition: ease all 0.15s;
 }
 .selector-container input {
   color: #595959;
@@ -32,6 +33,7 @@ body {
   border-radius: 13px;
   border: none;
   font-size: 22px;
+  transition: ease all 0.15s;
 }
 .selector-container input:focus {
   border: none;
@@ -69,13 +71,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: ease all 0.2s;
   color: #595959;
   padding: 17px 25px;
   width: 100%;
   border-radius: 13px;
   border: none;
   font-size: 22px;
+  transition: ease all 0.15s;
 }
 .ul-box ul li:hover {
   background: #ECECEC;

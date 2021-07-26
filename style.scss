@@ -12,6 +12,7 @@ $font: "Nunito",sans-serif;
     border-radius: 13px;
     border: none;
     font-size: 22px;
+    transition: ease all 0.15s;
 }
 
 *{
@@ -78,7 +79,7 @@ body{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            transition: ease all 0.2s;
+            
             color: $on-text;
             padding:17px 25px;
             @include field;
