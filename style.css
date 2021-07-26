@@ -15,23 +15,18 @@ body {
   height: auto;
   margin: 0 auto;
 }
-.selector-container fieldset {
+.selector-container input {
+  position: relative;
+  color: #595959;
+  padding: 17px 25px;
+  z-index: 1;
   background: #FFFFFF;
   margin-top: 40%;
-  padding: 17px 25px;
-  position: relative;
-  z-index: 1;
   width: 100%;
   border-radius: 13px;
   border: none;
   font-size: 22px;
-}
-.selector-container input {
-  color: #595959;
-  width: 100%;
-  border-radius: 13px;
-  border: none;
-  font-size: 22px;
+  transition: ease all 0.15s;
 }
 .selector-container input:focus {
   border: none;
@@ -69,13 +64,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: ease all 0.2s;
   color: #595959;
   padding: 17px 25px;
   width: 100%;
   border-radius: 13px;
   border: none;
   font-size: 22px;
+  transition: ease all 0.15s;
 }
 .ul-box ul li:hover {
   background: #ECECEC;
